@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f6f6f6;
+}
+
+.main-header {
+  background: #0a3d62;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.main-nav {
+  background: #2d3436;
+  text-align: center;
+  padding: 15px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  background: #636e72;
+  border-radius: 5px;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+  background: #dfe6e9;
+  margin: 20px;
+}
+
+.dashboard-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.status-box {
+  font-size: 48px;
+  padding: 40px;
+  color: white;
+  background: #0984e3;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+}
