@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<header class="main-header">
+  <h1>Live Occupancy Dashboard</h1>
+</header>
+
+<nav class="main-nav">
+  <a href="/">Home</a>
+  <a href="/dashboard">Dashboard</a>
+  <a href="/about">About</a>
+</nav>
+
+<div class="dashboard-container">
+  <div class="status-box" id="status-box">Loading...</div>
+  <button onclick="refreshStatus()">Refresh</button>
+</div>
+
+<script src="/static/js/script.js"></script>
+
+</body>
+</html>
